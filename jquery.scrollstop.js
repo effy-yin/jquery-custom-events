@@ -36,7 +36,7 @@
             $(this).bind("scroll", handler).data(uid1, handler);            
         },
         teardown: function(){
-            $(this).unbind( "scroll", $(this).data(uid1) );
+            $(this).unbind("scroll", $(this).data(uid1) );
         }
     };
     
@@ -59,7 +59,7 @@
             $(this).bind("scroll", handler).data(uid2, handler);
         },
         teardown: function() {
-            $(this).unbind( "scroll", $(this).data(uid2) );
+            $(this).unbind("scroll", $(this).data(uid2) );
         }
     };
 
